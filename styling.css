@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Nav */
+.NAV{
+    background-color: #2196f3;
+}
+.one>ul>li{
+    list-style: none;
+    margin: 0px 30px;
+    vertical-align: middle;
+}
+.two>ul>li{
+
+    list-style: none;
+    margin: 0px 20px;
+}
+@media screen AND (max-width : 700px){
+    .two{
+        display: none;
+    }
+    .nav2{
+        display:none;
+    }
+}
+
+/* navbar */
+.nav1{
+    font-family: sans-serif; 
+    font-style: inherit;
+    font-size: larger;
+    color: black; 
+}
+.nav1:hover{
+    color: #2196f3;
+    box-shadow: -1px -1px 3px , 2px 2px 5px;
+}
+.nav2{
+    background: linear-gradient(to top left,blue, white );
+    border-bottom-left-radius: 100px;
+}
+.nav3{
+    box-shadow: -2px -2px 5px , 2px 2px 5px;
+}
+
+/* head */
+.head1{
+    background-image: url("head1.webp");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.head2{
+    margin-top: 15%;
+    margin-left: 8%;
+}
+.head2 h1{
+    font-size: 90px;
+}
+.head3 {
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+/* Locate */
+.loc{
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+    border-left: 1px solid rgb(61, 61, 61);
+}
+.l1{
+    display: flex;
+    justify-content: flex-start;
+}
+.l2{
+    font-size: x-large;
+}
+.l3{
+    border-bottom: 2px solid #2196f3;
+}
+
+/* Admission */
+.a1{
+    background-image: linear-gradient(to bottom right, #0142a5,#21acf2 );
+}
+.a2{
+    /* background: linear-gradient(to bottom right, #1363DF,#34B3F1 ); */
+    background-image: url("admission.png");
+    /* opacity: 0.8; */
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    color: black;
+}
+.a3{
+    font-style: italic;
+    border-bottom: 5px solid white;
+    width: 30%;
+}
+.adm-btn{
+    width: 10%;
+    color: #2196f3;
+    box-shadow: -2px -2px 5px , 2px 2px 5px;
+}
+@media screen AND (max-width : 700px){
+    .a2{
+        height: 190vh;
+    }
+    .adm-btn{
+        width: 15%;
+        margin-top: 5%;
+    }
+}
+
+/* Help Center */
+.help1{
+    color: #2196f3;
+    box-shadow: -2px -2px 5px , 2px 2px 5px;
+}
+.help1:hover{
+    background-color: #2196f3;
+    color: white;
+}
+
+
+/* FAQs */
+.faq1{
+    padding: 2%;        
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+.faq1:hover{
+    background-color: #2196f3;
+    color: white;
+}
+.faq2{
+    border: 2px solid #2196f3;
+}
+
+/* Footer */
+.list{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.foot1{
+    color: #2196f3;
+}
+.footicon{
+    color: #2196f3;
+}
+.footicons i{
+    color: white;
+    background-color: #2196f3;
+    border-radius: 15px;
+}
